@@ -115,7 +115,7 @@ Link task allocation: [**https://docs.google.com/spreadsheets/d/1p9vzLOrRWNIL22D
 
 Trong code, đóng góp của em có thể kiểm tra ở các hàm classify\_profit\_improvement(value), classify\_demand\_loss(value), classify\_risk(value), classify\_elasticity(value), classify\_fixed\_cost\_share(value), build\_strategy\_text(...), build\_personalized\_insight(...), và phần chọn strategy trong compute\_result\_context(form). Các phần này thể hiện việc em không chỉ xây dựng công thức tính toán, mà còn tham gia thiết kế cách hệ thống diễn giải kết quả pricing thành các mức profit, demand loss, risk và recommendation để người dùng dễ ra quyết định.
 
-**1. Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng**
+### **6. Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng**
 
 Phần việc của em là nền tảng để app có thể tính toán và đưa ra kết quả. Khi người dùng nhập dữ liệu về chi phí, nhu cầu, giá bán cũ, giá bán mới và các yếu tố thị trường, hệ thống sẽ dùng logic kinh tế em xây dựng để chuyển các dữ liệu đó thành các kết quả cụ thể.
 
@@ -123,13 +123,13 @@ Ví dụ, từ dữ liệu lịch sử, app tính được elasticity. Sau đó,
 
 Những kết quả này sau đó được dùng trong Monte Carlo Simulation và recommendation engine để đề xuất các chiến lược tăng giá như Conservative, Balanced hoặc Aggressive. Vì vậy, phần em làm giúp app có cơ sở kinh tế để đưa ra khuyến nghị, thay vì chỉ tính toán một cách ngẫu nhiên.
 
-**2. Điều cá nhân học được**
+### **7. Điều cá nhân học được**
 
 Qua phần việc này, em học được cách biến kiến thức kinh tế thành một mô hình có thể áp dụng trong sản phẩm thực tế. Trước đây, em chỉ hiểu price elasticity hay profit analysis dưới dạng lý thuyết, nhưng khi làm dự án này, em phải suy nghĩ xem công thức đó sẽ được đưa vào app như thế nào và kết quả có dễ hiểu với người dùng hay không.
 
 Em cũng học được rằng một mô hình tốt không nhất thiết phải quá phức tạp. Điều quan trọng là mô hình phải rõ ràng, hợp lý và giải thích được. Ngoài ra, em hiểu hơn về cách phối hợp với các thành viên khác, vì phần logic kinh tế của em cần kết nối với phần data input, simulation, recommendation và giao diện kết quả.
 
-**3. Khó khăn đã gặp và cách xử lý**
+### **8. Khó khăn đã gặp và cách xử lý**
 
 Khó khăn lớn nhất của em là xây dựng công thức dự báo nhu cầu (demand forecast) sao cho kết quả phản ánh đúng thực tế kinh doanh.
 
@@ -139,7 +139,7 @@ Ban đầu, em đã xây dựng công thức tính demand dựa trên industry g
 
 Sau khi điều chỉnh, kết quả mô phỏng trở nên hợp lý hơn. Khi giá tăng cao, demand giảm theo mức độ phù hợp với elasticity, từ đó các kết quả về doanh thu, lợi nhuận và recommendation cũng đáng tin cậy hơn.
 
-**4. Lời nhắn cho sinh viên khóa sau**
+### **9. Lời nhắn cho sinh viên khóa sau**
 
 Nếu sinh viên khóa sau muốn tiếp tục phần việc này, em nghĩ điều quan trọng nhất là không nên bắt đầu từ code ngay, mà nên hiểu thật rõ bài toán pricing trước. Cần hiểu rằng tăng giá không đồng nghĩa với lợi nhuận chắc chắn tăng, vì khi giá tăng thì khách hàng có thể đặt hàng ít hơn. Vì vậy, phần quan trọng nhất của mô hình là phải giải thích được mối quan hệ giữa price, demand, cost và profit.
 
