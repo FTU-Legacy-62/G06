@@ -2,13 +2,13 @@
 
 **Đỗ Thị Quỳnh Anh \- 2313380004**
 
-**1. Vai trò trong dự án**
+### **1. Vai trò trong dự án**
 
 Trong dự án PricePilot, em đóng vai trò là M1, phụ trách phần **Economic Logic & Pricing Model**. Phần việc của em là xây dựng logic kinh tế phía sau app, tức là xác định khi doanh nghiệp thay đổi giá bán thì nhu cầu, chi phí và lợi nhuận sẽ thay đổi như thế nào.
 
 Bên cạnh đó, em tập trung vào việc xây dựng các công thức chính của mô hình, đặc biệt là price elasticity, dự báo nhu cầu mới, tính giá bán cơ sở và tính lợi nhuận cho từng kịch bản giá. Đây là phần nền tảng để các thành viên khác có thể tiếp tục phát triển phần mô phỏng, recommendation và giao diện kết quả.
 
-**2. Dấu ấn cá nhân trong sản phẩm**
+### **2. Dấu ấn cá nhân trong sản phẩm**
 
 Đóng góp rõ ràng nhất của em là phần mô hình định giá (pricing model) và các công thức kinh tế được sử dụng trong hệ thống. Toàn bộ quá trình mô phỏng của PricePilot đều dựa trên các công thức mà em thiết kế, đặc biệt là:
 
@@ -19,7 +19,7 @@ Bên cạnh đó, em tập trung vào việc xây dựng các công thức chín
 
 Những công thức này là nền tảng để Monte Carlo Simulation có thể hoạt động và đưa ra khuyến nghị tăng giá phù hợp.
 
-**3. Những việc đã thực sự làm**
+### **3. Những việc đã thực sự làm**
 
 ### **Việc 1: Tìm hiểu bài toán pricing của doanh nghiệp cơ khí SME**
 
@@ -83,7 +83,7 @@ Em hỗ trợ xây dựng cách diễn giải các kết quả như profit impro
 
 Phần này giúp dashboard không chỉ có kết quả tính toán, mà còn có ý nghĩa quản trị rõ ràng hơn.
 
-**4. File, tính năng, dữ liệu, logic, giao diện, tài liệu hoặc phần demo đã đóng góp**
+### **4. File, tính năng, dữ liệu, logic, giao diện, tài liệu hoặc phần demo đã đóng góp**
 
 ### **Logic và tính năng đã đóng góp**
 
@@ -107,7 +107,7 @@ Các đóng góp của em được thể hiện trong:
 * Personalized Insight.  
 * Market Condition Analysis.
 
-**5. Bằng chứng đóng góp**
+### **5. Bằng chứng đóng góp**
 
 Link công thức: [**https://docs.google.com/spreadsheets/d/1YP506e8sjTiZqmOY9fNb6fcVjwMv5qI\_kQSa1qlXRuQ/edit?usp=sharing**](https://docs.google.com/spreadsheets/d/1YP506e8sjTiZqmOY9fNb6fcVjwMv5qI_kQSa1qlXRuQ/edit?usp=sharing)
 
