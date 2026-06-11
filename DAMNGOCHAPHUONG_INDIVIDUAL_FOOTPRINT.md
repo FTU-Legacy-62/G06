@@ -46,7 +46,8 @@ Phần đóng góp của em cũng được thể hiện trong **Technical Flow**
 - Bằng chứng có thể kiểm tra được gồm file code chính **pricepilot.py**, module **M4 – Advisory Logic & Strategy Engine**, trang kết quả **/result**, phần **Top Recommendation / Defensive Recommendation**, ba thẻ chiến lược **Aggressive, Balanced, Conservative**, phần **Quick Personalized Insights**, **Personalized Detailed Insight** và **Market Condition Analysis**.  
 - Trong code, có thể kiểm tra các hàm **classify\_profit\_improvement(value)**, **classify\_demand\_loss(value)**, **classify\_risk(value)**, **classify\_elasticity(value)**, **classify\_fixed\_cost\_share(value)**, **build\_strategy\_text(...)**, **build\_personalized\_insight(...)**, và phần chọn strategy trong **compute\_result\_context(form)**.
 
-![][image1]
+<img width="1437" height="1683" alt="code" src="https://github.com/user-attachments/assets/efe0c8b1-7b49-4dc1-9885-f326c1932513" />
+
 
 - Phần việc thông qua Technical Flow của nhóm:
 
