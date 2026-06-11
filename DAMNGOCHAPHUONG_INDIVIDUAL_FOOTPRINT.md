@@ -5,7 +5,7 @@
 
 Trong dự án PricePilot, em phụ trách phần **M4 – Advisory Logic & Strategy Engine**. Đây là phần nằm sau bước Monte Carlo Simulation. Sau khi hệ thống chạy mô phỏng và tạo ra các kết quả như expected profit, demand loss và probability of lower profit, phần của em sẽ dùng các kết quả đó để đưa ra khuyến nghị tăng giá cho người dùng.
 
-Nói đơn giản, phần em làm giúp hệ thống trả lời các câu hỏi như: doanh nghiệp nên tăng giá trong khoảng nào, nên chọn hướng tăng giá thận trọng hay mạnh hơn, rủi ro có cao không, và vì sao hệ thống lại đưa ra khuyến nghị đó.
+Phần em làm giúp hệ thống trả lời các câu hỏi như: doanh nghiệp nên tăng giá trong khoảng nào, nên chọn hướng tăng giá thận trọng hay mạnh hơn, rủi ro có cao không, và vì sao hệ thống lại đưa ra khuyến nghị đó.
 
 Em tập trung vào logic cho ba chiến lược **Aggressive, Balanced và Conservative**, đồng thời xây dựng các phần giải thích trên dashboard như **Top Recommendation / Defensive Recommendation**, **Quick Personalized Insights**, **Scenario Recommendations** và **Personalized Detailed Insight**.
 
