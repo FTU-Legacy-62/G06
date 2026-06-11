@@ -2,13 +2,13 @@
 
 **Đỗ Thị Quỳnh Anh \- 2313380004**
 
-1. **Vai trò trong dự án**
+**1. Vai trò trong dự án**
 
 Trong dự án PricePilot, em đóng vai trò là M1, phụ trách phần **Economic Logic & Pricing Model**. Phần việc của em là xây dựng logic kinh tế phía sau app, tức là xác định khi doanh nghiệp thay đổi giá bán thì nhu cầu, chi phí và lợi nhuận sẽ thay đổi như thế nào.
 
 Bên cạnh đó, em tập trung vào việc xây dựng các công thức chính của mô hình, đặc biệt là price elasticity, dự báo nhu cầu mới, tính giá bán cơ sở và tính lợi nhuận cho từng kịch bản giá. Đây là phần nền tảng để các thành viên khác có thể tiếp tục phát triển phần mô phỏng, recommendation và giao diện kết quả.
 
-2. **Dấu ấn cá nhân trong sản phẩm**
+**2. Dấu ấn cá nhân trong sản phẩm**
 
 Đóng góp rõ ràng nhất của em là phần mô hình định giá (pricing model) và các công thức kinh tế được sử dụng trong hệ thống. Toàn bộ quá trình mô phỏng của PricePilot đều dựa trên các công thức mà em thiết kế, đặc biệt là:
 
@@ -19,7 +19,7 @@ Bên cạnh đó, em tập trung vào việc xây dựng các công thức chín
 
 Những công thức này là nền tảng để Monte Carlo Simulation có thể hoạt động và đưa ra khuyến nghị tăng giá phù hợp.
 
-3. **Những việc đã thực sự làm**
+**3. Những việc đã thực sự làm**
 
 ### **Việc 1: Tìm hiểu bài toán pricing của doanh nghiệp cơ khí SME**
 
@@ -83,7 +83,7 @@ Em hỗ trợ xây dựng cách diễn giải các kết quả như profit impro
 
 Phần này giúp dashboard không chỉ có kết quả tính toán, mà còn có ý nghĩa quản trị rõ ràng hơn.
 
-**4\. File, tính năng, dữ liệu, logic, giao diện, tài liệu hoặc phần demo đã đóng góp**
+**4. File, tính năng, dữ liệu, logic, giao diện, tài liệu hoặc phần demo đã đóng góp**
 
 ### **Logic và tính năng đã đóng góp**
 
@@ -107,7 +107,7 @@ Các đóng góp của em được thể hiện trong:
 * Personalized Insight.  
 * Market Condition Analysis.
 
-**5\. Bằng chứng đóng góp**
+**5. Bằng chứng đóng góp**
 
 Link công thức: [**https://docs.google.com/spreadsheets/d/1YP506e8sjTiZqmOY9fNb6fcVjwMv5qI\_kQSa1qlXRuQ/edit?usp=sharing**](https://docs.google.com/spreadsheets/d/1YP506e8sjTiZqmOY9fNb6fcVjwMv5qI_kQSa1qlXRuQ/edit?usp=sharing)
 
@@ -115,7 +115,7 @@ Link task allocation: [**https://docs.google.com/spreadsheets/d/1p9vzLOrRWNIL22D
 
 Trong code, đóng góp của em có thể kiểm tra ở các hàm classify\_profit\_improvement(value), classify\_demand\_loss(value), classify\_risk(value), classify\_elasticity(value), classify\_fixed\_cost\_share(value), build\_strategy\_text(...), build\_personalized\_insight(...), và phần chọn strategy trong compute\_result\_context(form). Các phần này thể hiện việc em không chỉ xây dựng công thức tính toán, mà còn tham gia thiết kế cách hệ thống diễn giải kết quả pricing thành các mức profit, demand loss, risk và recommendation để người dùng dễ ra quyết định.
 
-1. **Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng**
+**1. Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng**
 
 Phần việc của em là nền tảng để app có thể tính toán và đưa ra kết quả. Khi người dùng nhập dữ liệu về chi phí, nhu cầu, giá bán cũ, giá bán mới và các yếu tố thị trường, hệ thống sẽ dùng logic kinh tế em xây dựng để chuyển các dữ liệu đó thành các kết quả cụ thể.
 
@@ -123,13 +123,13 @@ Ví dụ, từ dữ liệu lịch sử, app tính được elasticity. Sau đó,
 
 Những kết quả này sau đó được dùng trong Monte Carlo Simulation và recommendation engine để đề xuất các chiến lược tăng giá như Conservative, Balanced hoặc Aggressive. Vì vậy, phần em làm giúp app có cơ sở kinh tế để đưa ra khuyến nghị, thay vì chỉ tính toán một cách ngẫu nhiên.
 
-2. **Điều cá nhân học được**
+**2. Điều cá nhân học được**
 
 Qua phần việc này, em học được cách biến kiến thức kinh tế thành một mô hình có thể áp dụng trong sản phẩm thực tế. Trước đây, em chỉ hiểu price elasticity hay profit analysis dưới dạng lý thuyết, nhưng khi làm dự án này, em phải suy nghĩ xem công thức đó sẽ được đưa vào app như thế nào và kết quả có dễ hiểu với người dùng hay không.
 
 Em cũng học được rằng một mô hình tốt không nhất thiết phải quá phức tạp. Điều quan trọng là mô hình phải rõ ràng, hợp lý và giải thích được. Ngoài ra, em hiểu hơn về cách phối hợp với các thành viên khác, vì phần logic kinh tế của em cần kết nối với phần data input, simulation, recommendation và giao diện kết quả.
 
-3. **Khó khăn đã gặp và cách xử lý**
+**3. Khó khăn đã gặp và cách xử lý**
 
 Khó khăn lớn nhất của em là xây dựng công thức dự báo nhu cầu (demand forecast) sao cho kết quả phản ánh đúng thực tế kinh doanh.
 
@@ -139,7 +139,7 @@ Ban đầu, em đã xây dựng công thức tính demand dựa trên industry g
 
 Sau khi điều chỉnh, kết quả mô phỏng trở nên hợp lý hơn. Khi giá tăng cao, demand giảm theo mức độ phù hợp với elasticity, từ đó các kết quả về doanh thu, lợi nhuận và recommendation cũng đáng tin cậy hơn.
 
-4. **Lời nhắn cho sinh viên khóa sau**
+**4. Lời nhắn cho sinh viên khóa sau**
 
 Nếu sinh viên khóa sau muốn tiếp tục phần việc này, em nghĩ điều quan trọng nhất là không nên bắt đầu từ code ngay, mà nên hiểu thật rõ bài toán pricing trước. Cần hiểu rằng tăng giá không đồng nghĩa với lợi nhuận chắc chắn tăng, vì khi giá tăng thì khách hàng có thể đặt hàng ít hơn. Vì vậy, phần quan trọng nhất của mô hình là phải giải thích được mối quan hệ giữa price, demand, cost và profit.
 
