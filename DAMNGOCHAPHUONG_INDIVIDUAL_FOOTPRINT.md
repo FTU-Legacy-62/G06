@@ -50,7 +50,8 @@ Phần đóng góp của em cũng được thể hiện trong **Technical Flow**
 
 - Phần việc thông qua Technical Flow của nhóm:
 
-![][image2]
+<img width="1672" height="941" alt="technicalflow" src="https://github.com/user-attachments/assets/41fa6f68-5787-4f74-a38e-8166614b06f3" />
+
 
 ## **6\. Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng**
 
