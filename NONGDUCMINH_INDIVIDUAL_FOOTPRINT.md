@@ -127,7 +127,7 @@ Em xây dựng và chỉnh loading screen khi hệ thống chạy simulation. Tr
 Các bằng chứng đóng góp của em tập trung vào phần giao diện web, luồng demo và trang hiển thị kết quả của PricePilot.
 
 * File chính: **pricepilot.py**
-* Link web demo: **https://pricepiloot.onrender.com/**
+* Link web demo: **https://pricepilot6.onrender.com/**
 
 ### 1. Trang Intro
 
