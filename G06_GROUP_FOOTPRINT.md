@@ -14,7 +14,7 @@ https://github.com/FTU-Legacy-62/G06
 
 ## Link demo
 
-https://pricepilot6.onrender.com
+https://pricepilot67.onrender.com
 
 
 ## Vấn đề nhóm muốn giải quyết
