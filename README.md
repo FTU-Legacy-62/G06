@@ -53,7 +53,7 @@ Có hai cách để mở hoặc chạy sản phẩm:
 
 1. Mở link demo của sản phẩm:
 
- https://pricepilot6.onrender.com
+ https://pricepilot67.onrender.com
 
 2. Web được deploy bằng Render free service, lần mở đầu có thể mất khoảng 30–60 giây do server cần khởi động lại.
 3. Khi trang intro của PricePilot hiện ra, bấm **Start**.
