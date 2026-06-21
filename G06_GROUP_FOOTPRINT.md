@@ -90,7 +90,7 @@ Người dùng nhập các thông tin nền của doanh nghiệp:
 
 Trong sản phẩm, demand được hiểu là số lượng đơn hàng hoặc job/batch/contract trung bình mỗi tháng, không nhất thiết là số lượng sản phẩm đơn vị.
 
-### 3. Historical Data for Fixed Elasticity
+### 3. Historical Data for Elasticity
 
 Người dùng nhập dữ liệu lịch sử để hệ thống tính độ co giãn cầu theo giá:
 
@@ -162,7 +162,7 @@ Lợi nhuận hiện tại được tính:
 Current profit = (base price - current cost per order) × base demand
 ```
 
-### 3. Tính fixed elasticity từ dữ liệu lịch sử
+### 3. Tính elasticity từ dữ liệu lịch sử
 
 Hệ thống tính elasticity từ thay đổi giá và thay đổi nhu cầu trong quá khứ:
 
